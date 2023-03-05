@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container">
+		<attributes>
+			<attribute name="annotationpath" value="C:/Users/Shubh_web_develop/Downloads/mysql-connector-java-5.1.48-bin.jar"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/JAVA_MINI_PROJECTS/apache-tomcat-9.0.55/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA_MINI_PROJECTS/apache-tomcat-9.0.55/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubh_web_develop/Downloads/mysql-connector-java-5.1.48-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

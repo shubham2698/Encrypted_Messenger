@@ -1,0 +1,75 @@
+<html>
+    <head>
+     <link rel="stylesheet" href="logincss.css" type="text/css">
+     <style type="text/css">
+     h1.heading{
+	    text-align:right;
+	    padding-right: 550px;
+	    padding-top: 200px;
+	    text-overflow: clip;
+	}
+img.img1{
+  padding-left: 100px;
+  width: fit-content;
+  position: relative;
+ bottom: 110px;
+  
+}
+form.form1{
+    
+      width: 100%;
+      height: fit-content;
+      align-self: right;
+}
+fieldset.f1{
+  position:relative;
+  bottom: 450px;
+  left: 800px;  
+  width: 320px;
+  height: 170px;
+  padding: 50px;
+  margin: 20px;
+  border:none;
+}
+
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 25px;
+    margin: 10px 0;
+    text-align: left;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+ 	a{
+		text-decoration:none; 	
+ 	}
+     </style>
+    </head>
+    <body>
+        <embed src="navbar.html" type="text/html" width="100%"></embed>
+        <h1 class="heading">Log In</h1>
+        <img src="login.png" class="img1">
+       <fieldset class="f1">
+           
+        <form method="post"  action="Connector">
+            <input type="text" name="username" id="username" placeholder="username"><br>
+            <input type="password" name="password" id="password" placeholder="password*"><br>
+            <button type="submit" value="submit" name="submit" style="border-radius: 30px; width: 150px; height: 50px; font-size: 20px; background-color: #1E90FF; ">Submit</button>
+        </form>
+        <a href="Registration.html">New User Register</a>
+       </fieldset>
+       
+       <embed src="footer.html" width="100%"></embed>
+    </body>
+</html>
